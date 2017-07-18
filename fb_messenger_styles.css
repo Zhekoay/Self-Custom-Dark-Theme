@@ -1,0 +1,174 @@
+/*Bg Color*/
+body, 
+._4sp8, ._1u5d, ._5hy2 ._43dh, ._3v_p, ._1tuw, ._3v_p .page,
+.section.sayanything, .blue,
+body:not(.UIInternPage) a.buttonWhite.buttonWhite {
+	background-color: #000 !important;
+}
+/*Bg Color - popupContainerMain*/
+._53ij, ._aou, ._59s7, ._4eby, ._2f5n, ._558b ._54ng, ._2y8_ ,
+._3rpv{
+	background-color:#111 !important;
+}
+/*Bg Color - popupContainer - selected/hovered*/
+._5r8a._5r8b, ._1uwz, ._-lj ._4rlt{
+	background-color: #333 !important;
+}
+/*Bg Color - popupContainer - hovered*/
+._5r8h:hover, ._3-sy:hover{
+	background-color: #555 !important;
+}
+/*Bg Color - popupContainer - inContainerEndGradient*/
+._5r8l .uiScrollableArea.contentAfter:after,
+._3mts .uiScrollableArea.contentAfter:after{
+	background-image: linear-gradient(rgba(1, 1, 1, 0.05), rgb(1, 1, 1)) !important;
+}
+/*Bg Color - searchBox*/
+html ._55r1, 
+._5iwm ._58al{
+	background-color: RGBA(100,100,100,0.8) !important;
+	color: RGBA(170,170,170,1) !important;
+}
+/*Bg Color - SearchInConversation OuterBox*/
+._33p7 {
+	background-color: RGBA(50,50,50,0.95) !important;
+}
+
+/*Bg Color - ReportProbHeader*/
+._4-i0 {
+	background-color:#202020 !important;
+}
+/*Bg Color - ReportProbMain*/
+select,#bug_report_textarea,
+div._4-i2, div._5a8u, ._4t2a {
+	background-color:#303030 !important;
+}
+
+/*Border Line Color*/
+html ._55r1, ._558b ._54ng, ._3rpv, ._5i_d{
+	border-color: #555 !important;
+}
+
+._4rv3, ._1li-, ._5lnf, ._3rq0, ._4ea2, ._3cnp {
+	border-top-color:  #555 !important;
+}
+._36ic, ._5742, ._5r8e, ._2y8y, ._57pm, ._2i-c ._54nf ._54ak, ._4-i0,
+._llj {
+	border-bottom-color: #555 !important;
+}
+
+._1q5-, ._4_j5, ._37wv, ._5r86 {
+	 border-left-color: #555 !important;
+ }
+ 
+ ._57pl {
+	border-right-color: #555 !important;
+ }
+
+/*ColoredTextContainer - */
+._nd_ ._hh7{
+	opacity: 0.7 !important;
+	color: RGBA(255,255,255,1) !important;
+}
+
+/*Text Color*/
+body, h1, h2, h3, h4, h5, h6, select,
+#bug_report_textarea,
+._5i_d .__6k, ._5i_d .__6l, .__6k, .__6l, ._4ebz ._19jt em, ._364g,
+._1ht6, ._4sp8, ._17w2, ._2jnv, ._2jnx, ._2jnz, ._2jnx ._30e7 ._5j5f,
+._3szq, ._5iwm ._58al::placeholder, ._51l0 .uiInputLabel .__rm+.uiInputLabelLabel,
+._2i-c ._54nf ._54nh, ._225b em, ._3q34, ._3q35, ._14-7 ._58ah ._58al::placeholder,
+._2y8z em, ._14-7 ._58ah ._58al, ._1ht7, ._uvt, ._3v_p ._3403, ._3rp_,
+._3v_p ._210j ._43dj .uiInputLabelLabel, ._59h8, .uiP, ._4rph ._4rpj,
+._3cn0, ._llq {
+	color: RGBA(170,170,170,1) !important;
+}
+/*text color - notificationText*/
+._497p, ._2v6o, ._36zg {
+	color: RGBA(170,170,170,0.5) !important;
+}
+
+/*Friends' ChatBox Container*/
+._hh7:not(._43by) {
+	background-color: #333 !important;
+	color: RGBA(170,170,170,1) !important;
+}
+
+/*Unread Msg*/
+._1ht3 ._1ht6, ._1ht3 ._1htf, ._1ht3 ._1ht7 {
+	color: #0084FF !important;
+}
+
+/*Hovered MenuItem TextColor*/
+._54ni:hover ._54nh {
+	color: #FFF !important;
+}
+
+/*Img - unhover*/
+._217a ._t5c ._5jdu,
+._5r8i, ._llj .img img {
+	filter: brightness(70%);
+}
+/*Img - hovered*/
+._217a ._t5c ._5jdu:hover,
+._5r8i:hover, ._llj:hover .img img {
+	filter: brightness(100%);
+}
+
+._4rv6, ._5jdr ._5jds, ._5iwm ._58ak::before, .sp_aRuSJ30pyzA.sx_398111{
+	filter:invert(100%);
+}
+
+/*Link*/
+._nd_ ._hh7 a:hover{
+	text-shadow: 1px 1px #000000;
+}
+
+._nd_ ._hh7 a:visited{
+	color: ##EF00FF !important;
+}
+
+/*ImgHoverEffect*/
+/*unhovered*/
+._2n8i ._4tsk, a._3m31,._5l37 img.img, ._1t_p ._1t_q img.img,
+li._5l-3._1ht1 img.img, ul._29hl li._44kr img.img, ._1jt6 img, img._1ifu
+td ._5dr4{ 
+	opacity: 0.7 !important;
+}
+/*hovered*/
+._2n8i ._4tsk:hover,
+a._3m31:hover,._5l37:hover img.img, ._1t_p:hover ._1t_q img.img,
+li._5l-3._1ht1:hover img.img, ul._29hl li._44kr:hover img.img,
+._1jt6:hover img, ._3-sy:hover img._1ifu, td:hover ._5dr4{
+	opacity: 1.0 !important;
+}
+
+._53il ._558b+._53io, ._53ik ._558b+._53io, ._1r_9 ._53ik ._53io,
+.ie10 ._55sg>input+span:before, .webkit ._55sg>input+span:before,
+._4jy0 .img {
+	filter: invert(90%);
+}
+
+.sp_nFvnRJJ72eh {
+	filter: invert(300%);
+}
+
+/*Hovered Conversation ListItem*/
+li._1ht1:hover {
+	background-color: RGBA(255, 255, 255, .05)!important;
+}
+/*Opened Conversation ListItem*/
+._1ht1._1ht2 {
+	background-color: RGBA(255, 255, 255, .2)!important;
+}
+
+/*Button*/
+._517h, ._59pe:focus, ._59pe:hover {
+	background-color:#303030 !important;
+    color: RGBA(170,170,170,1) !important;
+}
+
+/*MainPage Img*/
+._3v_- .img, .doubleCol > .imgContainer:first-child .img{
+	filter: brightness(10%);
+}

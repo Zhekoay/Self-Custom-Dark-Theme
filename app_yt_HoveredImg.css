@@ -1,0 +1,67 @@
+/*AddOn for NewYT Dark Theme*/
+/*YTer Name linked Text*/
+yt-formatted-string[ellipsis-truncate] a.yt-formatted-string:first-of-type{
+	color: #4F9CFF !important;
+}
+
+/*Hide Ads*/
+#ab4yt-brand {
+	display: none !important;
+}
+
+/*Hover Effect*/
+/*Img - unhovered*/
+#thumbnail.ytd-thumbnail yt-img-shadow.ytd-thumbnail,
+.ytd-guide-entry-renderer .style-scope.yt-img-shadow,
+#avatar .style-scope.yt-img-shadow, #author-thumbnail img#img.yt-img-shadow, 
+.ytd-comment-renderer img, 
+ytd-playlist-video-thumbnail-renderer.ytd-playlist-thumbnail yt-img-shadow.ytd-playlist-video-thumbnail-renderer img#img{
+	-webkit-transition: all 0.4s ease;
+	 transition: all 0.4s ease;
+	-webkit-filter: brightness(30%);
+	filter: brightness(30%);
+}
+/*Img - hovered*/
+.style-scope.ytd-expanded-shelf-contents-renderer:hover #thumbnail.ytd-thumbnail yt-img-shadow.ytd-thumbnail,
+ytd-grid-video-renderer:hover #thumbnail.ytd-thumbnail yt-img-shadow.ytd-thumbnail,
+ytd-newspaper-hero-video-renderer:hover #thumbnail.ytd-thumbnail yt-img-shadow.ytd-thumbnail, 
+ytd-newspaper-mini-video-renderer:hover #thumbnail.ytd-thumbnail yt-img-shadow.ytd-thumbnail,
+ytd-compact-video-renderer:hover #thumbnail.ytd-thumbnail yt-img-shadow.ytd-thumbnail,
+ytd-metadata-row-container-renderer:hover #thumbnail.ytd-thumbnail yt-img-shadow.ytd-thumbnail,
+ytd-guide-entry-renderer:hover .ytd-guide-entry-renderer .style-scope.yt-img-shadow,
+ytd-comment-renderer:hover .ytd-comment-renderer img,
+#channel-container:hover #avatar .style-scope.yt-img-shadow{
+	-webkit-filter: brightness(80%) !important;
+	filter: brightness(80%) !important;
+}
+/*ImgPlaylist - Hovered*/
+ytd-playlist-renderer.ytd-expanded-shelf-contents-renderer:hover ytd-playlist-video-thumbnail-renderer.ytd-playlist-thumbnail yt-img-shadow.ytd-playlist-video-thumbnail-renderer img#img{
+	-webkit-transition: all 0.4s ease;
+	 transition: all 0.4s ease;
+	-webkit-filter: brightness(100%) !important;
+	filter: brightness(100%) !important;
+}
+/*HE - unhovered*/
+ytd-c4-tabbed-header-renderer[has-channel-art][guide-visible] #spacer.ytd-c4-tabbed-header-renderer{
+	background-color: #000 !important;
+	opacity: 0.8 !important;
+}
+/*HE - hovered*/
+ytd-c4-tabbed-header-renderer[has-channel-art][guide-visible] #spacer.ytd-c4-tabbed-header-renderer:hover{
+	opacity: 0.3 !important;
+}
+
+/*ScrollBar*/
+::-webkit-scrollbar-track {
+	background: #000 !important;
+}
+::-webkit-scrollbar-thumb {
+	background: #333 !important;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #444 !important;
+}
+::-webkit-scrollbar {
+    width: 4px !important;
+    height: 4px !important;
+}
