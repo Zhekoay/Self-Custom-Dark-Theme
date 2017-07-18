@@ -16,27 +16,9 @@
 	},
 	
 	"permissions": [
-		"tabs",
-		"https://www.google.com/*",
-		"https://www.messenger.com/*",
-		"https://www.youtube.com/*"
-		
+		"activeTab"
 	],
-
-	"content_scripts": [
-	{
-		"css": ["app_yt_HoveredImg.css"],
-		"matches": ["https://www.youtube.com/*"],
-		"all_frames": true
-	},
-	{
-		"css": ["fb_messenger_styles.css"],
-		"matches": ["https://www.messenger.com/*"]
-	},
-	{
-		"css": ["google_styles.css"],
-		"matches": ["https://www.google.com/*","https://translate.google.com/*","https://apis.google.com/*"],
-		"all_frames": true
-	}
+	"web_accessible_resources": [
+		"*.css"
 	]
 }
